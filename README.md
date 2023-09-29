@@ -5,7 +5,7 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on MLOps principles and cryptography
-- 🌱 I’m currently learning cryptography, MLOps, and web development
+- 🌱 I’m currently learning cryptography, MLOps, and ethical hacking
 - 👯 I’m looking to collaborate on any project really, reach out!
 - 🤔 I’m looking for help with projects
 - 💬 Ask me about anything, especially the world
