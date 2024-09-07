@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on Cloud computing,MLOps principles and cryptography
+- 🔭 I’m currently working on Cloud computing, Cybersecurity Fundamentals, and Cryptography
 - 🌱 I’m currently learning cryptography, Forensics, and the CLOUD
 - 👯 I’m looking to collaborate on any project really, reach out!
 - 🤔 I’m looking for help with projects
