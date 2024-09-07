@@ -1,1 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Philip Okonkwo | Portfolio </title>
+  <meta name="title" content="Philip Okonkwo - Technology Enthusiast">
+  <meta name="description" content="This is the official personal portfolio for Philip Okonkwo">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/images/po-white.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/po-black.png" width="84" height="26" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/po-black.png" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Reviews</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#contact" class="btn btn:hover">
+        <span class="span">Contact Me</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="/phil-1.jpg" width="500" height="680" alt="Philip Okonkwo" class="img-cover">
+            </div>
+
+            <span class="span title">Philip Okonkwo</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">A Dedicated Technology Enthusiast.</h1>
+
+            <div class="wrapper">
+              <a href="/philip-cv.pdf" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/crypto.png" width="80" height="80" loading="lazy" alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Cryptography
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/cyber.png" width="80" height="80" loading="lazy" alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Cybersecurity
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/ml.png" width="80" height="80" loading="lazy" alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Machine <br />
+                    Learning
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/networking.png" width="80" height="80" loading="lazy" alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Networking
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">Certifications</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="/phil3.png" width="570" height="420" loading="lazy" alt="about banner" class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    A life-long learner interested in ML/AI, Neural Networks, and Cybersecurity.
+                  </h2>
+
+                  <p class="section-text">
+                    I am a dedicated technology enthusiast with a first-class Electrical and Electronics Engineering
+                    honors
+                    degree. I aim to contribute substantively to enhancing
+                    security
+                    practices in these domains, leveraging my academic foundation and genuine interest.
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Philip Okonkwo</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">okonkwophilip100@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="https://github.com/p10-dev" class="social-link h6" title="GitHub">Gh.</a>
+                        <a href="https://www.instagram.com/philip.n.k/" class="social-link h6" title="Instagram">Ig.</a>
+                        <a href="https://www.linkedin.com/in/okonkwo-philip/" class="social-link h6" title="Linkedin">Ln.</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    Below are some of the skillsets/fields I am interested in:
+                  </h3>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Compliance Testing</span>
+
+
+                      </div>
+
+
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Automation using Python</span>
+
+
+                      </div>
+
+
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Exploratory Data Analysis</span>
+
+
+                      </div>
+
+
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Role Access Management</span>
+
+                      </div>
+
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/ml-hands.png" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h3 class="h4 title section-title">
+                Listed below is one of my Certifications I have received from a top organisation. Details on others I have can be found in my resume, <a style="font-family: 'Hedvig Letters Serif', sans-serif;" href="/philip-cv.pdf">here.</a>
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <a href="https://www.credly.com/badges/3b8e042f-c52e-4888-94f5-276829a72565/linked_in_profile">
+                        <img src="./assets/images/google-cert.png" width="534" height="383" loading="lazy"
+                          alt="certificate" class="img-cover">
+                      </a>
+                    </figure>
+                  </div>
+                </li>
+
+                <!--<li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-3.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>-->
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On Your Next Project!
+          </h2>
+
+          <a href="#contact" class="btn btn:hover">
+            <span class="span">Hire Me</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/port-1.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Real-time object detection system using convolutional neural network"
+                  class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">ML, Research</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title" style="text-transform: capitalize; font-size: 30px;">Real-time object
+                    detection system using convolutional neural network</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/port-2.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Automation using Python" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">ML, Research</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title" style="text-transform: capitalize;">Automation using Python</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/port-3.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Security risk assessment report" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Cybersecurity, Research</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title" style="text-transform: capitalize;">Security risk assessment report</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/port-4.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Exploratory Data Analysis" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Data Analysis, Compliance Testing</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title" style="text-transform: capitalize;">Exploratory Data Analysis</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/port-5.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Role Access Management tool" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Cybersecurity</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title" style="text-transform: capitalize;">Role Access Management tool</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+
+          <div class="testi-content">
+
+            <blockquote class="title h4 section-text">
+              &ldquo; Philip is an exceptional individual! I have worked on various projects with him in times passed,
+              and he has never for once failed to not deliver on a task assigned to him. A man of great drive and focus;
+              the real MVP for sure. &rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="--width: 70; --height: 70;">
+                <img src="./assets/images/client-1.png" width="70" height="70" loading="lazy" alt="Worthy Emeka"
+                  class="img-cover">
+              </figure>
+
+              <div>
+                <p class="title h5 card-title" style="font-family: 'Recoleta';">Worthy Emeka</p>
+
+                <p class="card-subtitle">Freelance Web Developer & Product Designer</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="https://formsubmit.co/okonkwophilip100@gmail.com" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="How can I be of service?" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Get in Touch</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+            <img src="/assets/images/phil-footer.jpeg" width="600" height="450" style="border: 0;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Lagos, Nigeria
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <a href="mailto:okonkwophilip100@gmail.com">
+                    <span class="title h6">okonkwophilip100@gmail.com</span>
+                  </a>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright" style="font-size: 10px;">
+        Copyright &copy; Philip Okonkwo, 2024. Designed by <a href="https://worthysvue.com"
+          style="text-decoration: none; color: aliceblue;">Worthy's Vue</a>
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://kit.fontawesome.com/08d9b1877f.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
