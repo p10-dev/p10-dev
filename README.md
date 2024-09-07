@@ -7,4 +7,4 @@
 - 💬 Ask me about anything, especially the world
 - 📫 How to reach me: okonkwophilip100@gmail.com
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I can crack codes in my mind.
+- ⚡ Fun fact: I can calculate large numbers.
